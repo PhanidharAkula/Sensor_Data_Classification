@@ -104,6 +104,9 @@ A minimal layout for this repository might look like:
 ├─ Plottings/
 │   └─ ... (Generated plots saved here)
 │
+├─ Dataset_AllSensors_Featured.csv
+│   └─ ... (Generated featured csv saved here)
+│
 ├─ main.py
 └─ README.md  (This file)
 ```
@@ -162,10 +165,10 @@ A minimal layout for this repository might look like:
 
    - For each window and each sensor axis, the pipeline computes:
      - **Mean**
+     - **Median**
      - **Standard Deviation**
      - **Minimum**
      - **Maximum**
-     - **Median**
    - These statistics are stored in columns such as `acc_x_mean`, `acc_x_std`, `gyro_x_mean`, etc.
 
 3. **Combining All Sensors**
