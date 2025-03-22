@@ -108,13 +108,15 @@ A minimal layout for this repository might look like:
 │   └─ ... (Generated featured csv saved here)
 │
 ├─ main.py
-└─ README.md  (This file)
+├─ README.md  (This file)
+└─ requirements.txt
 ```
 
 - **DataSet/** – Raw data directories.
 - **Plottings/** – Generated plots (if `PLOTTING=True`).
-- **main.py** – Main pipeline script.
 - **DataSet_AllSensors_Featured.csv** (generated if it doesn’t already exist) – Feature-extracted dataset.
+- **main.py** – Main pipeline script.
+- **requirements.txt** – Contains all necessary Python libraries and dependencies needed to run the project.
 
 ---
 
