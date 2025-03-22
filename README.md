@@ -104,7 +104,7 @@ A minimal layout for this repository might look like:
 ├─ Plottings/
 │   └─ ... (Generated plots saved here)
 │
-├─ Dataset_AllSensors_Featured.csv
+├─ DataSet_AllSensors_Featured.csv
 │   └─ ... (Generated featured csv saved here)
 │
 ├─ main.py
