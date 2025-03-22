@@ -25,8 +25,8 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier, VotingClassifier
 
 # ----------------------------- Configuration -----------------------------
-DATASET_PATH = "./DataSet2"                # Directory for the sensor data
-OUTPUT_FEATURE_CSV = "DataSet2_AllSensors_Featured.csv"
+DATASET_PATH = "./DataSet"                # Directory for the sensor data
+OUTPUT_FEATURE_CSV = "DataSet_AllSensors_Featured.csv"
 WINDOW_SIZE = 100                          # Rows per time-series window
 USE_ENSEMBLE = True                        # Whether to create a VotingClassifier
 PLOTTING = True                            # If False, does not create sensor plots
